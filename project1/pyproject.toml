@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "project to test ci workflows"
 authors = ["Tomasz Chodakowski <tomasz.chodakowski@bain.com>"]
 readme = "README.md"
-packages = [{include = "tch_test_project1", from = "src"}]
+packages = [{include = "project1", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
