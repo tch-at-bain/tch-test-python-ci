@@ -7,14 +7,14 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-          
+
+defaults:
+    run:
+        shell: bash
+        working-directory: project1          
 jobs:
   Quality:
     runs-on: ubuntu-latest
-    defaults:
-        run:
-          shell: bash
-          working-directory: project1
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v4
@@ -56,10 +56,6 @@ jobs:
     # https://github.community/t/how-do-i-specify-job-dependency-running-in-another-workflow/16482
     if: github.event_name == 'push' && github.ref == 'refs/heads/master' && !contains(github.event.head_commit.message, 'chore(release):')
     runs-on: ubuntu-latest
-    defaults:
-        run:
-          shell: bash
-          working-directory: project1
     steps:
       - uses: actions/setup-python@v4
         with:
