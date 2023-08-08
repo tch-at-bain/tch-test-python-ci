@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "tch-test-project1"
+version = "0.1.0"
+description = "project to test ci workflows"
+authors = ["Tomasz Chodakowski <tomasz.chodakowski@bain.com>"]
+readme = "README.md"
+packages = [{include = "tch_test_project1", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+langchain = "==0.0.255"
+
+loguru = "^0.7.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "==23.3.0"
+coverage = "==7.2.5"
+flake8 = "==6.0.0"
+flake8-pyproject = "==1.2.3"
+isort = "==5.12.0"
+mypy = "==1.2.0"
+pre-commit = "==3.3.3"
+
+ipykernel = "==6.24.0"
+
+pytest = "^7.4.0"
+python-semantic-release = "^8.0.4"
+
+[tool.semantic_release]
+version_variable = [
+    "src/project1/__init__.py:__version__",
+    "pyproject.toml:version"
+]
+branch = "main"
+upload_to_pypi = false
+upload_to_release = true
+build_command = "pip install poetry && poetry build"
+
+[tool.pytest.ini_options]
+pythonpath = ["./src/"]
+testpaths = ["./tests/"]
+env_files = [".env"]
+
+[tool.black]
+include = '\.pyi?$'
+line-length = 120
+target-version = ["py37", "py38"]
+
+[tool.isort]
+include_trailing_comma = true
+line_length = 120
+multi_line_output = 3
+
+[tool.flake8]
+extend-exclude = [".venv", "bin"]
+ignore = ["W291", "W503", "E203"]
+max-complexity = 10
+max-line-length = 120
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
