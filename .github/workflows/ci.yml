@@ -29,14 +29,14 @@ jobs:
         virtualenvs-in-project: true
         installer-parallel: true
 
-    - name: Configure poetry
-      shell: bash
-      run: python -m poetry config virtualenvs.in-project true
+    # - name: Configure poetry
+    #   shell: bash
+    #   run: python -m poetry config virtualenvs.in-project true
     - name: View poetry version
       run: poetry --version
     - name: Install dependencies
       run: |
-        python -m poetry install
+        poetry install
     # - name: Lint with flake8
     #   run: |
     #     # stop the build if there are Python syntax errors or undefined names
