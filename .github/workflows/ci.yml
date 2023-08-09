@@ -5,12 +5,12 @@ name: CI-Project1
 on:
   push:
     branches: [ main ]
-    paths:
-        - 'project1/**'   
+    # paths:
+    #     - 'project1/**'   
   pull_request:
     branches: [ main ]
-    paths:
-        - 'project1/**'   
+    # paths:
+    #     - 'project1/**'   
 
 defaults:
     run:
