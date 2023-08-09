@@ -2,6 +2,15 @@
 
 
 
+## v0.3.0 (2023-08-09)
+
+### Feature
+
+* feat(main): added arg to function2
+
+BREAKING_CHANGE: added argument to function2 ([`3f15151`](https://github.com/tch-at-bain/tch-test-python-ci/commit/3f15151fbd1fc92ccdafd7dd02cf84adb93cf739))
+
+
 ## v0.2.0 (2023-08-09)
 
 ### Feature
