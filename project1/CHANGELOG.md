@@ -2,6 +2,17 @@
 
 
 
+## v0.1.0 (2023-08-09)
+
+### Feature
+
+* feat: added function2 ([`6b6499e`](https://github.com/tch-at-bain/tch-test-python-ci/commit/6b6499e1d90ea5c2d73cdaa865b298a7bdc09757))
+
+### Unknown
+
+* fix to semantic release config ([`73ef12c`](https://github.com/tch-at-bain/tch-test-python-ci/commit/73ef12c8171c1bb32cc99ea4160cc4c7c9299264))
+
+
 ## v0.0.0 (2023-08-09)
 
 ### Unknown
