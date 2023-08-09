@@ -29,7 +29,7 @@ python-semantic-release = "^8.0.4"
 
 [tool.semantic_release]
 version_variable = [
-    "./src/project1/__init__.py:__version__",
+    "src/project1/__init__.py:__version__",
 ]
 version_toml = [
     "pyproject.toml:tool.poetry.version",
