@@ -29,9 +29,13 @@ python-semantic-release = "^8.0.4"
 
 [tool.semantic_release]
 version_variable = [
-    "src/project1/__init__.py:__version__",
-    "pyproject.toml:version"
+    "./src/project1/__init__.py:__version__",
 ]
+version_toml = [
+    "pyproject.toml:tool.poetry.version",
+]
+
+
 branch = "main"
 upload_to_pypi = false
 upload_to_release = true
