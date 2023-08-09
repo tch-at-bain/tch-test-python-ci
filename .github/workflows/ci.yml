@@ -5,8 +5,12 @@ name: CI-Project1
 on:
   push:
     branches: [ main ]
+    paths:
+        - 'project1/**'   
   pull_request:
     branches: [ main ]
+    paths:
+        - 'project1/**'   
 
 defaults:
     run:
@@ -20,11 +24,6 @@ jobs:
     - uses: actions/setup-python@v4
       with:
         python-version: 3.10.12
-    # - name: Install Python Poetry
-    #   uses: abatilo/actions-poetry@v2.1.0
-    #   with:
-    #     poetry-version: 1.5.1
-
     - name: Install and configure Poetry
       uses: snok/install-poetry@v1
       with:
@@ -32,10 +31,6 @@ jobs:
         virtualenvs-create: true
         virtualenvs-in-project: true
         installer-parallel: true
-
-    # - name: Configure poetry
-    #   shell: bash
-    #   run: python -m poetry config virtualenvs.in-project true
     - name: View poetry version
       run: poetry --version
     - name: Install dependencies
@@ -54,7 +49,7 @@ jobs:
   Release:
     needs: Quality
     # https://github.community/t/how-do-i-specify-job-dependency-running-in-another-workflow/16482
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master' && !contains(github.event.head_commit.message, 'chore(release):')
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && !contains(github.event.head_commit.message, 'chore(release):')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v4
@@ -62,9 +57,13 @@ jobs:
           python-version: 3.10.12
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: Semantic Release
-        run: |
-          pip install python-semantic-release
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          semantic-release publish
+    #   - name: Semantic Release
+    #     run: |
+    #       pip install python-semantic-release
+    #       git config user.name github-actions
+    #       git config user.email github-actions@github.com
+    #       semantic-release publish
+      - name: Python Semantic Release
+        uses: python-semantic-release/python-semantic-release@master
+        with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
