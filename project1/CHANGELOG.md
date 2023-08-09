@@ -2,6 +2,14 @@
 
 
 
+## v0.2.0 (2023-08-09)
+
+### Feature
+
+* feat(fun): modified function1
+BREAKING_CHANGE: added argument to function1 ([`0cf7bed`](https://github.com/tch-at-bain/tch-test-python-ci/commit/0cf7bede9ad28659c5df59728ac0ae1c8024606d))
+
+
 ## v0.1.0 (2023-08-09)
 
 ### Feature
