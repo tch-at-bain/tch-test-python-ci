@@ -2,6 +2,27 @@
 
 
 
+## v1.6.3 (2023-08-10)
+
+### Fix
+
+* fix: patch bump ([`c7d1111`](https://github.com/tch-at-bain/tch-test-python-ci/commit/c7d111137d2a4337ee62cc74ba9e4dc3630ad04e))
+
+* fix: patch bump ([`d7466a9`](https://github.com/tch-at-bain/tch-test-python-ci/commit/d7466a93bd34b052656266f2ef068b13a50df273))
+
+* fix: patch bump ([`580347f`](https://github.com/tch-at-bain/tch-test-python-ci/commit/580347f17d8c1bade11eb3278bba8352b714eb92))
+
+* fix: patch bump ([`5c97f38`](https://github.com/tch-at-bain/tch-test-python-ci/commit/5c97f387819dbdc2cdea7c911f546ade7a49fd5d))
+
+* fix: patch bump ([`f8d197c`](https://github.com/tch-at-bain/tch-test-python-ci/commit/f8d197c9f5757bf5b14d281ea4896179e0d0518e))
+
+* fix: minor bump ([`7cbec6c`](https://github.com/tch-at-bain/tch-test-python-ci/commit/7cbec6cbb54f84c7aa36dbfd3f2af41ef3eb01f2))
+
+* fix: patch bump ([`64a8201`](https://github.com/tch-at-bain/tch-test-python-ci/commit/64a82016b1ca2a34379512aa631e0550da2c0819))
+
+* fix: patch bump ([`86352ef`](https://github.com/tch-at-bain/tch-test-python-ci/commit/86352efdce8d2b230380ab98dfc86d1460d79645))
+
+
 ## v1.6.2 (2023-08-10)
 
 ### Fix
