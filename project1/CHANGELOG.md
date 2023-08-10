@@ -2,6 +2,13 @@
 
 
 
+## v1.3.0-rc.2 (2023-08-10)
+
+### Feature
+
+* feat: force release ([`b18f251`](https://github.com/tch-at-bain/tch-test-python-ci/commit/b18f2512848620b60cc4e1efafaf5f7d76e217bd))
+
+
 ## v1.3.0-rc.1 (2023-08-10)
 
 ### Documentation

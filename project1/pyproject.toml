@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tch-test-project1"
-version = "1.3.0-rc.1"
+version = "1.3.0-rc.2"
 description = "project to test ci workflows"
 authors = ["Tomasz Chodakowski <tomasz.chodakowski@bain.com>"]
 readme = "README.md"
