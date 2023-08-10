@@ -2,6 +2,15 @@
 
 
 
+## v0.4.0 (2023-08-10)
+
+### Feature
+
+* feat(function2): added argument
+
+BREAKING_CHANGE: added argument ([`d0c9466`](https://github.com/tch-at-bain/tch-test-python-ci/commit/d0c9466f3c38cb01dd923c22dc5dd73f65091035))
+
+
 ## v0.3.0 (2023-08-09)
 
 ### Feature
