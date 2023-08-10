@@ -2,6 +2,15 @@
 
 
 
+## v1.1.0 (2023-08-10)
+
+### Documentation
+
+* docs: describe on demand releases ([`8e8b3e5`](https://github.com/tch-at-bain/tch-test-python-ci/commit/8e8b3e5dad38858a9c2f8348b5add92aea787f40))
+
+* docs: readme content ([`d3aa97c`](https://github.com/tch-at-bain/tch-test-python-ci/commit/d3aa97c0df67168dafe4d87e26fdf7944e5dab26))
+
+
 ## v1.0.0 (2023-08-10)
 
 ### Breaking
