@@ -25,21 +25,19 @@ pre-commit = "==3.3.3"
 ipykernel = "==6.24.0"
 
 pytest = "^7.4.0"
-python-semantic-release = "^8.0.4"
+python-semantic-release = "^8.0.5"
 
 [tool.semantic_release]
 version_toml = [
     "pyproject.toml:tool.poetry.version"
 ]
-
-version_variable = [
+version_variables = [
     "project1/src/project1/__init__.py:__version__",
 ]
-
 branch = "main"
 upload_to_pypi = false
 upload_to_release = true
-build_command = "pip install poetry && poetry build"
+build_command = "poetry build"
 
 [tool.pytest.ini_options]
 pythonpath = ["./src/"]
