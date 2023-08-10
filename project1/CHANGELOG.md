@@ -2,6 +2,13 @@
 
 
 
+## v1.6.5 (2023-08-10)
+
+### Fix
+
+* fix: patch bump ([`0444002`](https://github.com/tch-at-bain/tch-test-python-ci/commit/044400204c5fd89da40e390cd00d541885c88102))
+
+
 ## v1.6.4 (2023-08-10)
 
 ### Fix
