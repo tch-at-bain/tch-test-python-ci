@@ -9,7 +9,7 @@ def function1(a: int):
 
 
 def function2(b: int):
-    a = b + 1
+    a = b + 1 + 1
     logger.info(f"In function2 {a=}")
     return True
 
