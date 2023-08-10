@@ -69,4 +69,4 @@ TODO: [semantic_release.cli.commands.version] ERROR version.version: release id 
 - Need to be disciplined with commits and their commit messages
 - Could be sutiable for plato-core, less so for plato-apps
 
-o
+oo
