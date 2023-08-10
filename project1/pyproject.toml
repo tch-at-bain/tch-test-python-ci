@@ -38,7 +38,8 @@ branch = "main"
 upload_to_pypi = false
 upload_to_release = true
 #build_command = "source .venv/bin/activate && poetry build"
-build_command = "/home/runner/.local/bin/poetry build"
+#build_command = "/home/runner/.local/bin/poetry build"
+build_command = "pip install poetry && poetry build"
 
 [tool.pytest.ini_options]
 pythonpath = ["./src/"]
