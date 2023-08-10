@@ -28,9 +28,12 @@ pytest = "^7.4.0"
 python-semantic-release = "^8.0.4"
 
 [tool.semantic_release]
+version_toml = [
+    "pyproject.toml:tool.poetry.version"
+]
+
 version_variable = [
     "src/project1/__init__.py:__version__",
-    "pyproject.toml:version"
 ]
 
 branch = "main"
