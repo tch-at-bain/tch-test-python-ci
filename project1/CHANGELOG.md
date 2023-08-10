@@ -2,6 +2,13 @@
 
 
 
+## v1.3.0-rc.1 (2023-08-10)
+
+### Documentation
+
+* docs: some more doc changes ([`be15069`](https://github.com/tch-at-bain/tch-test-python-ci/commit/be1506914bd33899242785a4c077c292b9011ac4))
+
+
 ## v1.2.0-rc.1 (2023-08-10)
 
 
