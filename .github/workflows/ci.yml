@@ -37,8 +37,6 @@ jobs:
         virtualenvs-create: true
         virtualenvs-in-project: true
         installer-parallel: true
-    - name: View poetry version
-      run: poetry --version
     - name: Install dependencies
       run: |
         poetry install
@@ -73,13 +71,16 @@ jobs:
         uses: snok/install-poetry@v1
         with:
             version: ${{ env.POETRY_VERSION }}
-            virtualenvs-create: false
+            virtualenvs-create: true
             virtualenvs-in-project: true
             installer-parallel: true
-      - name: Run image
-        uses: abatilo/actions-poetry@v2
-        with:
-          poetry-version: ${{ env.POETRY_VERSION }}
+      # - name: Run image
+      #   uses: abatilo/actions-poetry@v2
+      #   with:
+      #     poetry-version: ${{ env.POETRY_VERSION }}
+      - name: Install dependencies
+        run: |
+          poetry install
       - name: Python Semantic Release
         uses: python-semantic-release/python-semantic-release@master
         with:
