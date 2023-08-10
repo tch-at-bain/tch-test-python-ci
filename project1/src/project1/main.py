@@ -8,8 +8,9 @@ def function1(a: int):
     return True
 
 
-def function2():
-    logger.info("In function2")
+def function2(b: int):
+    a = b + 1
+    logger.info(f"In function2 {a=}")
     return True
 
 

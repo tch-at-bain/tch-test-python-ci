@@ -8,4 +8,4 @@ def test_function1():
 
 def test_function2():
     print("testing function2")
-    assert main.function2()
+    assert main.function2(1)
