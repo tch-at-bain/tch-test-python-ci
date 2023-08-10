@@ -32,7 +32,7 @@ version_toml = [
     "pyproject.toml:tool.poetry.version"
 ]
 version_variables = [
-    "project1/src/project1/__init__.py:__version__",
+    "src/project1/__init__.py:__version__",
 ]
 branch = "main"
 upload_to_pypi = false
