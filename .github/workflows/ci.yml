@@ -81,15 +81,15 @@ jobs:
       - name: Install dependencies
         run: |
           poetry install
-      # - name: Python Semantic Release
-      #   uses: python-semantic-release/python-semantic-release@master
-      #   with:
-      #       directory: ${{ env.WORKING_DIRECTORY }}
-      #       github_token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Semantic Release
-        run: |
-          poetry run semantic-release version
-          poetry run semantic-release publish
-        env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            # PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+      - name: Python Semantic Release
+        uses: python-semantic-release/python-semantic-release@master
+        with:
+            directory: ${{ env.WORKING_DIRECTORY }}
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Semantic Release
+      #   run: |
+      #     poetry run semantic-release version
+      #     poetry run semantic-release publish
+      #   env:
+      #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #       # PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
