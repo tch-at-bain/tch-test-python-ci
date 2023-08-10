@@ -33,7 +33,7 @@ version_toml = [
 ]
 
 version_variable = [
-    "src/project1/__init__.py:__version__",
+    "project1/src/project1/__init__.py:__version__",
 ]
 
 branch = "main"
