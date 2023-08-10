@@ -2,6 +2,15 @@
 
 
 
+## v1.6.4 (2023-08-10)
+
+### Fix
+
+* fix: patch bump ([`88e96aa`](https://github.com/tch-at-bain/tch-test-python-ci/commit/88e96aad481b5429142bdd85a5000060503e5421))
+
+* fix: patch bump ([`975cd10`](https://github.com/tch-at-bain/tch-test-python-ci/commit/975cd1095c4cff7dbac54895835e93b9354e024e))
+
+
 ## v1.6.3 (2023-08-10)
 
 ### Fix
