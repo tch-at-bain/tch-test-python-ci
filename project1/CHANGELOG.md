@@ -2,6 +2,15 @@
 
 
 
+## v0.5.0 (2023-08-10)
+
+### Feature
+
+* feat(fun1): added smthg
+
+BREAKING_CHANGE: breaks ([`3dcf5b7`](https://github.com/tch-at-bain/tch-test-python-ci/commit/3dcf5b7cea4b46794b173b541cf349061a901410))
+
+
 ## v0.4.0 (2023-08-10)
 
 ### Feature
