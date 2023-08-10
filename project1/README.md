@@ -51,7 +51,7 @@ Notice two blanks lines after breaking change description - it wont work if the 
 
 ## On demand releases
 
-- Pre-releases can be triggered using cli and `--prerelease` option: <https://python-semantic-release.readthedocs.io/en/latest/commands.html#prerelease>
+- Pre-releases can be triggered using cli and `--prerelease` option: <https://python-semantic-release.readthedocs.io/en/latest/commands.html#prerelease> and specific version bump -> see below.
 
 TODO: this doesnt work currently - config for multibranch releases required?
 
@@ -62,8 +62,7 @@ semantic-release -v version --minor
 ````
 
 TODO: This outputs a bug (related to missing v1.1.0 tag ) but seems to be working. No tag created though.
-TODO: [semantic_release.cli.commands.version] ERROR version.version: release id for tag v1.1.0 not found, and could not be created    
-
+TODO: [semantic_release.cli.commands.version] ERROR version.version: release id for tag v1.1.0 not found, and could not be created
 
 ## Cons
 
