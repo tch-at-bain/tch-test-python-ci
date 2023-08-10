@@ -2,6 +2,17 @@
 
 
 
+## v1.3.0 (2023-08-10)
+
+### Documentation
+
+* docs: force action trigger ([`eded82b`](https://github.com/tch-at-bain/tch-test-python-ci/commit/eded82b1b31c8e6d62bc10abe6f4df8d3e821ff8))
+
+### Feature
+
+* feat: force minor bump ([`1e6b4a4`](https://github.com/tch-at-bain/tch-test-python-ci/commit/1e6b4a44fa31bd21d2623bf19ea4e7b28daf52a7))
+
+
 ## v1.2.0 (2023-08-10)
 
 
