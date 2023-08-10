@@ -23,7 +23,7 @@ docs: <https://python-semantic-release.readthedocs.io/en/latest/index.html>
 - Maintains version numbers in code and pyproject.toml (TODO: fix in-code version maintenance)
 - Generates changelog - tested
 - Changelog templates - not tested
-- Monorepo support - tested (single repo though, how to reduce gha definnitions)
+- Monorepo support - tested (single repo though, how to reduce gha definitions)
 - support for multi-branch workflows (not-tested)
 
 ## Automated Releases
@@ -66,7 +66,7 @@ TODO: [semantic_release.cli.commands.version] ERROR version.version: release id 
 
 ## Cons
 
-- Need to be disciplined with commits and their commit messages
+- Need to be disciplined with commits and their messages
 - Could be sutiable for plato-core, less so for plato-apps
 
 oo
