@@ -2,6 +2,21 @@
 
 
 
+## v1.0.0 (2023-08-10)
+
+### Breaking
+
+* feat: added options
+
+fixes feature by
+
+BREAKING CHANGE: breaking change summary
+
+breaking change description and migration instructions
+
+Fixes #issue number ([`abd1a22`](https://github.com/tch-at-bain/tch-test-python-ci/commit/abd1a22705125d533f2deb8351ebfad9be3137f3))
+
+
 ## v0.6.0 (2023-08-10)
 
 ### Feature
