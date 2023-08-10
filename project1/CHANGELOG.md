@@ -2,6 +2,16 @@
 
 
 
+## v0.6.0 (2023-08-10)
+
+### Feature
+
+* feat(fun1): change
+
+BREAKING_CHANGE: breaks
+Just breaking changes ([`1fdfd82`](https://github.com/tch-at-bain/tch-test-python-ci/commit/1fdfd826c576f7d3f1204d7853e323fb18229578))
+
+
 ## v0.5.0 (2023-08-10)
 
 ### Feature
