@@ -38,6 +38,10 @@ Notice two blanks lines after breaking change description - it wont work if the 
 
 ## On demand releases
 
+Pre-releases can be triggered using cli and `--prerelease` option: <https://python-semantic-release.readthedocs.io/en/latest/commands.html#prerelease>
+
+Release of specific version can be triggered using `--major`, `--minor` and `--patch` types.
+
 ## Cons
 
 - Need to be disciplined with commits and their commit messages
