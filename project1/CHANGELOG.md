@@ -2,6 +2,13 @@
 
 
 
+## v1.7.0 (2023-08-11)
+
+### Feature
+
+* feat(persistence): just a minor bump ([`668a19e`](https://github.com/tch-at-bain/tch-test-python-ci/commit/668a19ea9e94480f509b66bcc1f922a57013cae4))
+
+
 ## v1.6.5 (2023-08-10)
 
 ### Fix
