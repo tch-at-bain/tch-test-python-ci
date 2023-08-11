@@ -77,6 +77,8 @@ jobs:
       # - name: Install dependencies
       #   run: |
       #     poetry install
+      # TODO: potentially change the build command to leverage already installed poetry
+      # There is a bug in SemRel: https://github.com/python-semantic-release/python-semantic-release/issues/222
       - name: Python Semantic Release
         uses: python-semantic-release/python-semantic-release@master
         with:
