@@ -2,6 +2,13 @@
 
 
 
+## v1.8.0 (2023-08-14)
+
+### Feature
+
+* feat: bump minor ([`11e131e`](https://github.com/tch-at-bain/tch-test-python-ci/commit/11e131e1b77bd1a6568da53da404472079d712c3))
+
+
 ## v1.7.1 (2023-08-11)
 
 ### Fix
